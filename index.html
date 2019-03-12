@@ -16,6 +16,30 @@
 
 <body>
 
+    <!-- Dropdown Button -->
+        <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+        </script>
+     <!-- Dropdown Button -->
+
     <!-- Preloader -->
     <div id="preloader">
         <div id="status">
@@ -36,7 +60,14 @@
                 <li><a href="#education">Education History</a></li>
                 <li><a href="#projects">Work History</a></li>
                 <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                        <button onclick="myFunction()" class="dropbtn">More</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#contact">Contact</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                   </li>
             </ul>
         </nav>
     </header>
@@ -138,7 +169,7 @@
                     <li class="timeline-event" data-aos="fade-up" data-aos-delay=".6">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
-                            <p class="timeline-event-thumbnail">1938</p>
+                            <p class="timeline-event-thumbnail">1949</p>
                             <h3>Teachers College, Columbia University</h3>
                             <h4>New York City, New York, United StatesS</h4>
                             <p><strong>May earned his PhD in clinical psychology from Teachers College, Columbia University in New 	York.</strong>
@@ -354,23 +385,39 @@
     <!-- aboutme -->
     <div class="section" id="aboutme">
         <div class="container">
-            <div class="col-md-6" data-aos="fade-up">
-                <h4>01</h4>
+            <div class="col-md-12">
+                <h4>05</h4>
                 <h1 class="size-50">About Me</h1>
                 <div class="h-50"></div>
-                <p><strong>Name:</strong> Rollo Reese May</p>
-                <p><strong>Location:</strong> Ada, Ohio, U.S.</p>
-                <p><strong>Date of Birth:</strong> April 21, 1909</p>
-	            <p><strong>Date of Death:</strong> October 22, 1994</p>
-                <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" />
-                <div class="h-50"></div>
             </div>
-            <div class="col-md-6 profile-img-div">
-                <div class="profile-border" data-aos="fade-up" data-aos-delay=".5"></div>
-                <img src="img/profile-img.jpg" width="350" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            <div class="col-md-12">
+                <p> 
+                    I’m an American existential psychologist, and an author of so many famous books.
+                    I work with Humanistic Psychology, Existential Philosophy, Existential Psychotherapy 
+                    with Viktor Frankl. I was influenced by the North American Humanism, and is interested in 
+                    reconciling Existential Psychology with other philosophies. I considered Otto Rank (1884-1939) 
+                    to be the most important precursor of existential therapy. Before Otto's death I wrote
+                    "I have long considered Otto Rank to be the great unacknowledged genius in Freud's circle."
+                    I was often grouped with Humanists, it was Abraham Maslow who provided a good base for my studies
+                    and theories as an existentialist. 
+                    <br><br>
+                    I helped introduce Existential Psychology in 1958, collaborated with Ernest Angel and Henri Ellenberger
+                    to edit the book "Existence". My aim was to understand the underlying mechanisms and reality behind human
+                    suffering and crises by combining elements of Humanism with Existentialism in the approach to therapy.
+                    I once had an argument about the development proceeds through specific stages during which a person must
+                    deal with a specific crisis or challenge. One of the arguments that I can never forget was about the Anxiety,
+                    it is a major catalyst in human life, enabling to make courageous decisions, but it can also help us avoid danger while empowering them to find ways to remain safe.
+                                        
+            
+
+                </p>
+
+            <div class="h-50"></div>
             </div>
         </div>
     </div>
+
+
     <!-- ./aboutme -->
 
 
