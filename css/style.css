@@ -17,7 +17,6 @@
     - Education section -
     - Work section -
     - About Me -
-    -Networks Section-
     - Contact section -
     - Responsive media queries -
 */
@@ -83,9 +82,7 @@ body {
 .h-50 {
     height: 50px;
 }
-.h-80 {
-    height: 80px;
-}
+
 
 /* preloader
 ==================================================*/
@@ -400,7 +397,6 @@ a.active {
     padding-left: 0;
     list-style: none;
     position: relative;
-    
 }
 
 .timeline:before {
@@ -578,11 +574,12 @@ a.active {
 }
 
 .portfolio_item .portfolio_item_hover .item_info em {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #fff;
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
     padding: 5px 20px;
-    color: #fff;
     margin-top: 10px;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
@@ -622,6 +619,8 @@ a.active {
     margin: 0 auto;
     text-align: center;
 }
+
+
 
 .portfolio_item img {
     /* -webkit-filter: grayscale(100%);
@@ -664,7 +663,65 @@ a.active {
     right: 14px;
 }
 
-.animatedModal-on .close-popup-modal {
+.history1-on .close-popup-modal {
+    opacity: 1;
+}
+.history2-on .close-popup-modal {
+    opacity: 1;
+}
+.history3-on .close-popup-modal {
+    opacity: 1;
+}
+.history4-on .close-popup-modal {
+    opacity: 1;
+}
+.history5-on .close-popup-modal {
+    opacity: 1;
+}
+.history6-on .close-popup-modal {
+    opacity: 1;
+}
+.history7-on .close-popup-modal {
+    opacity: 1;
+}
+.history8-on .close-popup-modal {
+    opacity: 1;
+}
+.history9-on .close-popup-modal {
+    opacity: 1;
+}
+.history10-on .close-popup-modal {
+    opacity: 1;
+}
+.history11-on .close-popup-modal {
+    opacity: 1;
+}
+.history12-on .close-popup-modal {
+    opacity: 1;
+}
+.history13-on .close-popup-modal {
+    opacity: 1;
+}
+.history14-on .close-popup-modal {
+    opacity: 1;
+}
+.history15-on .close-popup-modal {
+    opacity: 1;
+}
+.history16-on .close-popup-modal {
+    opacity: 1;
+}
+.history17-on .close-popup-modal {
+    opacity: 1;
+}
+.history18-on .close-popup-modal {
+    opacity: 1;
+}
+
+.history19-on .close-popup-modal {
+    opacity: 1;
+}
+.a1970-on .close-popup-modal {
     opacity: 1;
 }
 
@@ -674,6 +731,11 @@ a.active {
     line-height: 50px;
 }
 
+
+.work-image{
+    height: 4.5in;
+    width: 4in;
+}
 
 /* aboutme
 ==================================================*/
@@ -856,11 +918,3 @@ fieldset {
         font-size: 10px;
     }
 }
-
-
-/* networks
-==================================================*/
-#networks {
-    padding: 150px 0;
-}
-
