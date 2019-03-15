@@ -400,6 +400,7 @@ a.active {
     padding-left: 0;
     list-style: none;
     position: relative;
+    
 }
 
 .timeline:before {
@@ -841,9 +842,6 @@ fieldset {
     .profile-border {
         width: 265px;
     }
-    .network-border {
-        width: 265px;
-    }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
@@ -860,9 +858,9 @@ fieldset {
 }
 
 
-
 /* networks
 ==================================================*/
 #networks {
     padding: 150px 0;
 }
+
