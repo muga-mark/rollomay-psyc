@@ -620,6 +620,8 @@ a.active {
     text-align: center;
 }
 
+
+
 .portfolio_item img {
     /* -webkit-filter: grayscale(100%);
     filter: grayscale(100%); */
@@ -661,11 +663,58 @@ a.active {
     right: 14px;
 }
 
-.animatedModal-on .close-popup-modal {
+.history1-on .close-popup-modal {
     opacity: 1;
 }
-
-.asd-on .close-popup-modal {
+.history2-on .close-popup-modal {
+    opacity: 1;
+}
+.history3-on .close-popup-modal {
+    opacity: 1;
+}
+.history4-on .close-popup-modal {
+    opacity: 1;
+}
+.history5-on .close-popup-modal {
+    opacity: 1;
+}
+.history6-on .close-popup-modal {
+    opacity: 1;
+}
+.history7-on .close-popup-modal {
+    opacity: 1;
+}
+.history8-on .close-popup-modal {
+    opacity: 1;
+}
+.history9-on .close-popup-modal {
+    opacity: 1;
+}
+.history10-on .close-popup-modal {
+    opacity: 1;
+}
+.history11-on .close-popup-modal {
+    opacity: 1;
+}
+.history12-on .close-popup-modal {
+    opacity: 1;
+}
+.history13-on .close-popup-modal {
+    opacity: 1;
+}
+.history14-on .close-popup-modal {
+    opacity: 1;
+}
+.history15-on .close-popup-modal {
+    opacity: 1;
+}
+.history16-on .close-popup-modal {
+    opacity: 1;
+}
+.history17-on .close-popup-modal {
+    opacity: 1;
+}
+.history18-on .close-popup-modal {
     opacity: 1;
 }
 
@@ -676,6 +725,10 @@ a.active {
 }
 
 
+.work-image{
+    height: 4.5in;
+    width: 4in;
+}
 
 /* aboutme
 ==================================================*/
