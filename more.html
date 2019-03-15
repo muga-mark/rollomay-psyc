@@ -16,6 +16,29 @@
 
 <body>
 
+    <!-- Dropdown Button -->
+        <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
+            }
+        }
+        }
+        </script>
+     <!-- Dropdown Button -->
 
     <!-- Preloader -->
     <div id="preloader">
@@ -33,371 +56,234 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#projects">asdasd</a></li>
-                <li><a href="#contact">asdasd</a></li>
+                <li><a href="#networks">Networks</a></li>
+                <li><a href="#groups">Groups</a></li>
+                <li><a href="#check-in">Check-in</a></li>
+                <li><a href="#friends">Friends</a></li>
+                <li><a href="#definition">Definition of Terms</a></li>
+                <hr>
             </ul>
         </nav>
     </header>
     <!-- ./header -->
     
     
-    
-    <!-- work -->
-    <div class="section" id="projects">
+    <!-- networks -->
+    <div class="section" id="networks">
         <div class="container">
-            <div class="col-md-12">
-                <h4>03</h4>
-                <h1 class="size-50">Work History</h1> 
-            </div>
-            <!-- main container -->
-            <div class="main-container portfolio-inner clearfix">
-                <!-- portfolio div -->
-                <div class="portfolio-div">
-                    <div class="portfolio">
-                        <!-- portfolio_filter -->
-                        <div class="categories-grid wow fadeInLeft">
-                            <nav class="categories">
-                                <ul class="portfolio_filter">
-                                    <li><a href="" class="active" data-filter="*">All</a></li>
-                                    <li><a href="" data-filter=".photography">Books</a></li>
-                                    <li><a href="" data-filter=".logo">Logo</a></li>
-                                    <li><a href="" data-filter=".graphics">Graphics</a></li>
-                                    <li><a href="" data-filter=".ads">Advertising</a></li>
-                                    <li><a href="" data-filter=".fashion">Fashion</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- portfolio_filter -->
-                        
-                        <!-- portfolio_container -->
-                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6  fashion logo">
-                                <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mockups in seconds</span> <em>Fashion / Logo</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 ads graphics">
-                                <a id="demo02" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Floating mockups</span> <em>Ads / Graphics</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1939.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"><span><h2>1939</h2></span> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                    
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1940.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"><span><h2>1940</h2></span> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1950.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1953.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1958.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1967.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1969.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1972.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1973.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1981.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1983.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1985.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1991.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/books/1995.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                                                                       
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->                                                                      
-                                                   
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo08" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                            
-                            <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
-                                <a id="demo09" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
-                                    <div class="portfolio_item_hover">
-                                        <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Mobile devices</span> <em>Graphics / Ads</em> </div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- end single work -->
-                        </div>
-                        <!-- end portfolio_container -->
-                    </div>
-                    <!-- portfolio -->
-                </div>
-                <!-- end portfolio div -->
-            </div>
-            <!-- end main container -->
-        </div>
-    </div>
-    <!-- ./work -->
-    
-    <!-- aboutme -->
-    <div class="section" id="aboutme">
-        <div class="container">
-            <div class="col-md-12">
+            <div class="col-md-6" data-aos="fade-up">
                 <h4>05</h4>
-                <h1 class="size-50">About Me</h1>
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-12">
-                <p> 
-                    I’m an American existential psychologist, and an author of so many famous books.
-                    I work with Humanistic Psychology, Existential Philosophy, Existential Psychotherapy 
-                    with Viktor Frankl. I was influenced by the North American Humanism, and is interested in 
-                    reconciling Existential Psychology with other philosophies. I considered Otto Rank (1884-1939) 
-                    to be the most important precursor of existential therapy. Before Otto's death I wrote
-                    "I have long considered Otto Rank to be the great unacknowledged genius in Freud's circle."
-                    I was often grouped with Humanists, it was Abraham Maslow who provided a good base for my studies
-                    and theories as an existentialist. 
+                <h1 class="size-50">Networks</h1>
+                <br>
+                <p align="justify">
+                    He worked on several approaches which includes Humanistic Psychology, and Existentialism. Humanistic Psychology that focuses on 
+                    the capacity for growth and achievement in human beings. May took these ideas a step further as he explored the purpose of anxiety 
+                    in human beings, while Existentialism focuses on man's search for meaning and purpose in life. But of all of these approaches, he 
+                    focuses on Existentialism which he established. May determined that human beings fear death because we cannot comprehend our own lack 
+                    of existence. Rolly May was an American Psychologist who is often referred to as the father of Existential Psychology. He was an in-
+                    fluential American Psychologist who helped established a new branch of psychology.
                     <br><br>
-                    I helped introduce Existential Psychology in 1958, collaborated with Ernest Angel and Henri Ellenberger
-                    to edit the book "Existence". My aim was to understand the underlying mechanisms and reality behind human
-                    suffering and crises by combining elements of Humanism with Existentialism in the approach to therapy.
-                    I once had an argument about the development proceeds through specific stages during which a person must
-                    deal with a specific crisis or challenge. One of the arguments that I can never forget was about the Anxiety,
-                    it is a major catalyst in human life, enabling to make courageous decisions, but it can also help us avoid danger while empowering them to find ways to remain safe.
-                                        
-            
-
-                </p>
-
-            <div class="h-50"></div>
+                    He came to this approach through personal hardship. As explained, Existentialism deals on man's search for meaing and purpose in life. 
+                    May was stricken by tuberculosis, a bacterial lung infection, and was hospitalized for several years. During this illness, May began 
+                    to explore the meaning of life in face of death. This curiosity eventually led May to study clinical psychology, and was the recipient 
+                    of the first PhD in clinical psychology by Columbia University.
+                    <br><br>   
+                    May believed that people may lack the courage to face their destiny and while in the process of fleeing from it, they give up much their 
+                    freedom. In contrast, healthy people challenge their destiny, cherish their freedom, and live authentically with other people and themselves. 
+                    They recognize the inevitability of death and have the courage to live life in the present.            
+                 </p>
+            </div>
+            <div class="h-50"></div><div class="h-50"></div>
+            <div class="col-md-6 profile-img-div">
+                <div class="profile-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="img/network/network1.jpg" width="390" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
             </div>
         </div>
     </div>
+    <!-- ./networks -->
 
-
-    <!-- ./aboutme -->
-
-
-    <!-- contact -->
-    <div class="section" id="contact">
-        <div class="container">
-            <div class="col-md-12">
-                <h4>04</h4>
-                <h1 class="size-50">Contact Me</h1>
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up">
-
-                <h3>Phone Number</h3>
-                <p>+20 5555 569 42</p>
-                <h3> Mobile Numberr</h3>
-                <p>+20 5555 569 42</p>
-                <h3>Email</h3>
-                <p>mail@info.me </p>
-
-                <h3>Social Network</h3>
-
-                <ul class="social">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-                    <li><a href="#"><i class="ion-social-dribbble"></i></a></li>
-                </ul>
-                <div class="clearfix"></div>
-                <div class="h-50"></div>
-            </div>
-            <div class="col-md-8" data-aos="fade-up">
-                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" />
-                    <input type="email" name="email" class="form-control" placeholder="Your E-mail" />
-                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
-                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
-                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
-                    <div id="success">
-                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+    <!-- groups -->
+    <div class="section" id="groups">
+            <div class="container">
+                <div class="col-md-12">
+                    <h4>03</h4>
+                    <h1 class="size-50">Groups</h1> 
+                </div>
+                <!-- main container -->
+                <div class="main-container portfolio-inner clearfix">
+                    <!-- portfolio div -->
+                    <div class="portfolio-div">
+                        <div class="portfolio">
+                            <!-- portfolio_filter -->
+                            <div class="categories-grid wow fadeInLeft">
+                                <nav class="categories">
+                                    <ul class="portfolio_filter">
+                                        <li><a href="" data-filter=".group1">American Association of Humanistic Psychology</a></li>
+                                        <li><a href="" data-filter=".group2">Union Theological Seminary</a></li>
+                                        <li><a href="" data-filter=".group3">Accomplishments</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- portfolio_filter -->
+                            
+                            <!-- portfolio_container -->
+                            <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                                <!-- single work -->
+                                <div class="col-md-4 col-sm-6  group1">
+                                    <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/groups/g2.jpg" alt="image" class="img-responsive" />
+                                        <div class="portfolio_item_hover">
+                                            <div class="portfolio-border clearfix">
+                                                <div class="item_info"><em>CLICK TO VIEW</em> </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- end single work -->
+                       
+                                <!-- single work -->
+                                <div class="col-md-4 col-sm-6  group2">
+                                    <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/groups/g3.png" alt="image" class="img-responsive" />
+                                        <div class="portfolio_item_hover">
+                                            <div class="portfolio-border clearfix">
+                                                <div class="item_info"> <em>CLICK TO VIEW</em> </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- end single work -->
+                                
+                               
+                                    <!-- single work -->
+                                    <div class="col-md-4 col-sm-6  group3">
+                                        <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/groups/g1.png" alt="image" class="img-responsive" />
+                                            <div class="portfolio_item_hover">
+                                                <div class="portfolio-border clearfix">
+                                                    <div class="item_info"><em>CLICK TO VIEW</em> </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <!-- end single work -->
+                            </div>
+                            <!-- end portfolio_container -->
+                        </div>
+                        <!-- portfolio -->
                     </div>
-                    <div id="error">
-                        <p> Something went wrong, try refreshing and submitting the form again. </p>
-                    </div>
-                </form>
+                    <!-- end portfolio div -->
+                </div>
+                <!-- end main container -->
+            </div>
+        </div>
+        <!-- ./groups -->
+
+     <!-- definition of terms -->
+     <div class="section" id="definition">
+            <div class="container">
+                <div class="col-md-12" data-aos="fade-up">
+                    <h4>05</h4>
+                    <h1 class="size-50">Definition of Terms</h1>
+
+                        <p><li><strong>Existential Psychology - </strong> Focuses on concepts that are universally applicable to human existence including death, freedom,
+                        responsibility, and the meaning of life.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Humanistic Psychology - </strong>  a psychological perspective that rose to prominence in the mid-20th century in answer to limitations 
+                        of Sigmund Freud's psychoanalytic theory and B.F Skinner's Behaviorism.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Existential Philosophy - </strong> a tradition of philosophical inquiry associated mainly with certain 19 and 20th-century European philosophers 
+                        who, despite profound doctrinal differences.
+                        </li>
+                        </p> 
+                    
+                        <p><li><strong>Existential Psychotherapy - </strong> a form of psychotherapy based of human nature and experience developed by the existential tradition of European philosophy.
+                        </li>
+                        </p> 
+
+                        <p><li><strong>Humanism - </strong> a philosophical and ethical stance that emphasizes the value of agency of human beings, individually and collectively, and generally prefers 
+                        critical thinking and evidence(rationalism and empiricism) over acceptance of dogma or superstition.
+                        </li>
+                        </p>
+                    
+                        <p><li><strong>Existential Therapy - </strong> a form of psychotherapy based on the model of human nature and experience developed by the existential tradition of European philosophy.
+                        </li>
+                        </p>
+                        
+                        <p><li><strong>Freud's Circle - </strong> a group whom Freud formed.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Humanist - </strong> a non-religious movement aligned with secularism.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Existentialist - </strong> a movement of those who practices Existentialism.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Viktor Frankl - </strong> a neurologist and psychiatrist. one of the prominent 
+                        source of inspiration for Humanistic psychologist.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Otto Rank - </strong> an Austrian Psychoanalyst, writer and a teacher. Freud's "right hand man".
+                        </li>
+                        </p>
+
+                        <p><li><strong>Abraham Maslow - </strong> an American Psychologist who was best know for creating "Maslow's hierarchy 
+                        of need". Known as the tenth most cited psychologist of the 20th century.                       
+                        </li>
+                        </p>
+
+                        <p><li><strong>Ernest Angel - </strong> an American oilman and Republican politician who served from 1972 to 1980 as mayor 
+                        of the texas city of Midland and was in 1976 the co-manager of the presidential primary campaign in Texas for Ronald W. Reagan
+                        </li>
+                        </p>
+
+                        <p><li><strong>Henri Ellenberger - </strong> a canadian psychiatrist, medical historian, and a criminologist, sometimes considered 
+                        the founding of historiographer of psychiatry.
+                        </li>
+                        </p>
+
+                        <p><li><strong>Existence - </strong>  a book that collaborated with May, Ernest, Ellenberger & Aronson in 1958.
+                        </li>
+                        </p>
+                     
+                </div>
+                <div class="h-50"></div><div class="h-50"></div>  
+            </div>
+        </div>
+        <!-- ./definition of terms-->
+
+
+
+    <!--DEMO01-->
+    <div id="animatedModal" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                        <div class="h-50"></div>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
+                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <br />
+                        <br /> </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- ./contact -->
-
-    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->
