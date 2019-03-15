@@ -122,7 +122,7 @@ $(document).ready(function () {
     $("#work16").animatedModal({modalTarget: 'history16',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#work17").animatedModal({modalTarget: 'history17',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#work18").animatedModal({modalTarget: 'history18',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
-
+    $("#work19").animatedModal({modalTarget: 'history19',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     // Contact Form 	        
 
     // validate contact form
