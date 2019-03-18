@@ -636,7 +636,12 @@ a.active {
     z-index: 100000;
     right: 14px;
 }
-/*Index MODAL*/
+
+/* definition of terms */
+.definition-on .close-popup-modal {
+    opacity: 1;
+}
+
 .history1-on .close-popup-modal {
     opacity: 1;
 }
@@ -696,17 +701,6 @@ a.active {
     opacity: 1;
 }
 .a1970-on .close-popup-modal {
-    opacity: 1;
-}
-
-/*More MODAL*/
-.more1-on .close-popup-modal {
-    opacity: 1;
-}
-.more2-on .close-popup-modal {
-    opacity: 1;
-}
-.more3-on .close-popup-modal {
     opacity: 1;
 }
 
