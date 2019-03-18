@@ -103,6 +103,9 @@ $(document).ready(function () {
 
     });
 
+    //aboutme
+    $("#meaning1,#meaning2,#meaning3").animatedModal({modalTarget: 'definition',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+
     //animatedModal
     $("#work1").animatedModal({modalTarget: 'history1',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#work2").animatedModal({modalTarget: 'history2',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});

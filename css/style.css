@@ -637,6 +637,10 @@ a.active {
     right: 14px;
 }
 
+.definition-on .close-popup-modal {
+    opacity: 1;
+}
+
 .history1-on .close-popup-modal {
     opacity: 1;
 }
@@ -725,6 +729,11 @@ a.active {
     padding: 100px 0;
     background: #f3f3f3;
 }
+
+.definitons{
+    color: black;
+}
+
 
 
 /* contact
