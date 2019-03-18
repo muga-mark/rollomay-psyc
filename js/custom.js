@@ -104,7 +104,7 @@ $(document).ready(function () {
     });
 
     //aboutme
-    $("#meaning1,#meaning2,#meaning3").animatedModal({modalTarget: 'definition',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+    $("#meaning1,#meaning2,#meaning3,#meaning4,#meaning5,#meaning6,meaning7,#meaning8,#meaning9").animatedModal({modalTarget: 'definition',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
 
     //animatedModal
     $("#work1").animatedModal({modalTarget: 'history1',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
