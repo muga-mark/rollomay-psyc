@@ -104,7 +104,7 @@ $(document).ready(function () {
     });
 
     //aboutme
-    $("#meaning1,#meaning2,#meaning3,#meaning4,#meaning5,#meaning6,meaning7,#meaning8,#meaning9").animatedModal({modalTarget: 'definition',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+    $("#meaning1,#meaning2,#meaning3,#meaning4,#meaning5,#meaning6,meaning7,#meaning8,#meaning9,#meaning10,#meaning11,#meaning12,#meaning13,#meaning14,#meaning15").animatedModal({modalTarget: 'definition',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
 
     //animatedModal
     $("#work1").animatedModal({modalTarget: 'history1',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
@@ -187,3 +187,14 @@ $(document).ready(function () {
 
     });
 });
+
+
+
+//Friends
+$('.panel-collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+  });
+
+  $('.panel-collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+  });
