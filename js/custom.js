@@ -103,6 +103,9 @@ $(document).ready(function () {
 
     });
 
+    //aboutme
+    $("#meaning1,#meaning2,#meaning3,#meaning4,#meaning5,#meaning6,meaning7,#meaning8,#meaning9,#meaning10,#meaning11,#meaning12,#meaning13,#meaning14,#meaning15").animatedModal({modalTarget: 'definition',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+
     //animatedModal
     $("#work1").animatedModal({modalTarget: 'history1',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#work2").animatedModal({modalTarget: 'history2',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
@@ -123,6 +126,14 @@ $(document).ready(function () {
     $("#work17").animatedModal({modalTarget: 'history17',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#work18").animatedModal({modalTarget: 'history18',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#work19").animatedModal({modalTarget: 'history19',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+    
+    //groups
+    $("#group1").animatedModal({modalTarget: 'more1',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+    $("#group2").animatedModal({modalTarget: 'more2',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+    $("#group3").animatedModal({modalTarget: 'more3',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
+
+
+
     // Contact Form 	        
 
     // validate contact form
