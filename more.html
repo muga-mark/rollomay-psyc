@@ -12,6 +12,21 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( document ).tooltip();
+    } );
+    </script>
+    <style>
+    label {
+        display: inline-block;
+        width: 5em;
+    }
+    </style>
 </head>
 
 <body>
@@ -258,6 +273,7 @@
                     <div class="h-50"></div>
                     <h4>07</h4>
                     <h1 class="size-50">Groups</h1>
+                    <div class="h-50"></div>
                 </div>
                 <!-- main container -->
                 <div class="main-container portfolio-inner clearfix">
@@ -313,7 +329,9 @@
     </div>
     <!-- ./groups -->
 
+    
      
+
     <!--group1-->
     <div id="more1" class="popup-modal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
@@ -414,6 +432,53 @@
             </div>
         </div>
         
+        <!--check-in -->
+        <div class="section" id="check-in">
+          <div class="container">
+              <div class="col-md-12">
+                  <div class="h-50"></div>
+                  <h4>08</h4>
+                  <h1 class="size-50">Check-In</h1>
+                  <div class="h-50"></div>
+              </div>
+              <!-- main container -->
+              <div class="main-container portfolio-inner clearfix">
+                  <!-- portfolio div -->
+                  <div class="portfolio-div">
+                      <div class="portfolio">
+                                        
+                         <!-- single work -->
+                         <div class="col-md-4 col-sm-6  ">
+                            <a id="check-in2" class="portfolio_item" onclick="myFunction()"> <img src="img/portfolio/sanfrancisco.jpg" alt="image" class="work-image" />
+                              <script> function myFunction(){
+                                window.open("https://goo.gl/maps/Ggg3hHXyJhT2")
+                              }</script>  
+                              <div class="portfolio_item_hover">
+                                    <div class="portfolio-border clearfix">
+                                        <div class="item_info"><br/><em><h2>San Francisco Bay 1990</h2></br>May unselfishly took precious time out from working intensively on what would turn out to be his last major work, The Cry for Myth, to meet me for lunch at one of his favorite local restaurants. Over good seafood, a glass of wine, and a gorgeous view of a glittering San Francisco Bay</em><em>CLICK TO VIEW MAP</em> </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end single work -->
+
+                              <!-- single work -->
+                              <div class="col-md-4 col-sm-6  ">
+                                  <a id="check-in1" class="portfolio_item" onclick="myFunction()"> <img src="img/portfolio/02.jpg" alt="image" class="work-image" />
+                                    <script> function myFunction(){
+                                      window.open("https://www.google.com/maps")
+                                    }</script>  
+                                    <div class="portfolio_item_hover">
+                                          <div class="portfolio-border clearfix">
+                                              <div class="item_info"><br/><em><h2>Kirk Schneider with Rollo May in Circa, 1993</h2></em><em>CLICK TO VIEW MAP</em> </div>
+                                          </div>
+                                      </div>
+                                  </a>
+                              </div>
+                              <!-- end single work -->
+
+                             
+                                         
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->

@@ -132,7 +132,8 @@ $(document).ready(function () {
     $("#group2").animatedModal({modalTarget: 'more2',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
     $("#group3").animatedModal({modalTarget: 'more3',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
 
-
+    //Check-in
+    // $("#check-in1").animatedModal({modalTarget: 'more4',animatedIn: 'lightSpeedIn', animatedOut: 'bounceOutDown'});
 
     // Contact Form 	        
 
